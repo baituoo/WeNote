@@ -1,0 +1,42 @@
+name: notechat
+description: "A WeChat-style note-taking app for Windows desktop."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite_common_ffi: ^2.3.4+4
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  flutter_riverpod: ^2.6.1
+  window_manager: ^0.4.3
+  uuid: ^4.5.3
+  intl: ^0.19.0
+  file_picker: ^8.0.0
+  desktop_drop: ^0.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Custom fonts — download from https://fonts.google.com/?query=Noto+Sans+SC
+  # and drop the .ttf files into fonts/, then uncomment the section below.
+  #
+  # fonts:
+  #   - family: NotoSansSC
+  #     fonts:
+  #       - asset: fonts/NotoSansSC-Regular.ttf
+  #         weight: 400
+  #       - asset: fonts/NotoSansSC-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/NotoSansSC-Bold.ttf
+  #         weight: 700
