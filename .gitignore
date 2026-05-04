@@ -1,0 +1,50 @@
+# ── Flutter / Dart ──────────────────────────────────────────
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+app.*.symbols
+app.*.map.json
+**/doc/api/
+
+# ── Windows (generated) ─────────────────────────────────────
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# ── IDE / Editor ────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ── Environment / Secrets ───────────────────────────────────
+.env
+.env.*
+*.secret
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+
+# ── Build Artifacts ──────────────────────────────────────────
+WeNote_Setup_*.exe
+*.zip
+
+# ── Claude Code ──────────────────────────────────────────────
+.claude/
+
+# ── Misc ────────────────────────────────────────────────────
+.mason/
+.fvm/
